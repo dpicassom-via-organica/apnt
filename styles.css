@@ -1,0 +1,314 @@
+:root {
+    --verde-azul: #00A176;
+    --cafe-oscuro: #30160D;
+    --amarillo: #FDD93F;
+    --cafe-claro: #90441D;
+    --gris-fondo:rgba(0,0,0,.55);
+}
+body {
+    background-color: snow;
+}
+body div.container{
+    background-color: white;
+}
+
+body a{
+    color: var(--verde-azul);
+    text-decoration: none;
+}
+
+body a:hover{
+    color: var(--cafe-oscuro);
+}
+
+section {
+    padding-top: 2em;
+}
+
+h1 {
+    color: var(--verde-azul);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+
+    font-size: 1.4em;
+}
+
+img.logo-nav {
+    max-height: 7em;
+}
+
+img.nav-envelope {
+    height: 1.5em;
+    filter: invert(46%) sepia(63%) saturate(4453%) hue-rotate(140deg) brightness(93%) contrast(101%);
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.nav-link.active {
+    color: var(--verde-azul) !important;
+}
+
+.nav-link:hover {
+    color: var(--verde-azul) !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 800px!important;
+    }
+}
+
+section.carouselito div.cita-carousel {
+    position: absolute;
+    left: 5em;
+    top: 5em;
+    background: rgb(255, 255, 255);
+    z-index: 100;
+    opacity: 0.85;
+    max-width: 18em;
+    padding: 1em;
+
+}
+
+section.carouselito div.cita-carousel p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: var(--cafe-oscuro);
+    font-style: bold;
+
+
+}
+
+section.razon div.card {
+    background-color: snow;
+
+}
+
+
+
+section.razon div.card h1 {
+    color: grey;
+    font-size: 1.4em;
+
+}
+
+section.razon div.card {
+    border: none !important;
+    cursor: pointer; 
+}
+
+section.razon div.card div.centrar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 15em;
+}
+
+section.razon div.card hr {
+    height: 5px;
+    z-index: 1000;
+    margin: 0em;
+
+}
+
+section.razon div.card hr.tarj-izq {
+    color: var(--verde-azul);
+
+}
+
+section.razon div.card hr.tarj-centr {
+    color: var(--amarillo);
+
+}
+
+section.razon div.card hr.tarj-der {
+    color: var(--cafe-oscuro);
+
+}
+
+section.llamado div.fondo-verde-azul {
+    background-color: var(--verde-azul);
+    text-align: center;
+}
+
+section.llamado div.fondo-verde-azul h1 {
+    color: var(--amarillo);
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+section.llamado div.fondo-verde-azul h1 span {
+    color: var(--cafe-oscuro);
+}
+
+section.llamado div.container-fluid {
+    text-align: center;
+    padding: 2em;
+}
+
+section.llamado div.container-fluid p {
+
+    max-width: 43ch;
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+}
+
+section.a2019 {
+    text-align: left;
+    background-color: rgba(0, 161, 118,0.1);
+}
+
+section.a2019 p {
+    max-width: 50%;
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+
+}
+
+section.convocantes{
+    background-color: var(--amarillo);
+}
+
+section.convocantes div.container-fluid{
+    padding: 3em;
+}
+section.convocantes div.row p, section.convocantes div.row ul {
+    list-style-type: circle;
+    
+}
+section.convocantes div.row p, section.convocantes div.row ul li{
+  
+    color: var(--cafe-oscuro);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cafe-oscuro);
+    display: inline-block;
+    
+}
+
+
+section.convocantes div.row ul li:hover {
+    color: var(--verde-azul);
+    cursor: pointer; 
+    
+}
+
+section.hablemos div.container-fluid  {
+    text-align: center;
+}
+
+section.recursos div{
+    text-align: center;
+}
+
+section.recursos .card-img, .card-img-bottom, .card-img-top {
+    object-fit: scale-down;
+    width: auto!important;
+}
+
+section.recursos h2 {
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+section.prensa div.prensa{
+    background-color: var(--verde-azul);
+    
+}
+
+section.prensa div.prensa h1{
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+section.prensa h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: var(--verde-azul);
+
+}
+
+section.prensa  ul{
+    list-style-type: none;
+}
+
+section.contacto div.contiene-burbuja{
+    position: relative;
+}
+
+section.contacto div.barra-amarilla{
+    height: 6em;
+    
+    background-color: var(--amarillo);
+    margin-bottom: 6em;
+}
+
+section.contacto div.burbuja-per-se{
+    width: 20em;
+    position: absolute;
+    top: 2em;
+    right: 10em;
+}
+
+section.contacto div.burbuja-per-se img {
+    width: inherit;
+    object-fit: scale-down;
+}
+
+section.contacto p {
+    text-align: center;
+}
+
+section.contacto a {
+    font-weight: bold;
+    
+}
+
+section.contacto p.correo{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+section.fondo div{
+    background-color: lightcyan;
+}
+
+section.fondo div p{
+    color: var(--gris-fondo);
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
